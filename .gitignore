@@ -1,0 +1,55 @@
+# ------- Python -------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment files (API keys, secrets)
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache
+.cache/
+pytest_cache/
+__pycache__/
+
+# Build
+dist/
+build/
+
+# Streamlit
+.streamlit/
+
+# Local database files (if any)
+*.db
+*.sqlite3
+
+# CSV / data files NOT to push (optional)
+doctor_availability.csv
+
+# Backup files
+*.bak
+*.swp
+*.swo
